@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var activeTab = tabs[0];
         var activeTabId = activeTab.id; // or do whatever you need
 
-        chrome.extension.getBackgroundPage().console.log(activeTab.url);
+        //chrome.extension.getBackgroundPage().console.log(activeTab.url);
 
         if (
           activeTab.url.includes("neps.academy") &&
