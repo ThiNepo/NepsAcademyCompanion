@@ -1,6 +1,5 @@
 export function sendProblemData(problemData) {
-  console.log("Enviando problema:", problemData);
-
+  // console.log("Enviando problema:", problemData);
   for (const [appName, appPort] of defaultPorts) {
     try {
       sendDataToPort(problemData, appPort);
