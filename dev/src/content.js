@@ -1,5 +1,5 @@
 import { ERROR_MESSAGES, RUNTIME_MESSAGE_TYPES } from "./logic/utils/constants";
-import { isExercise } from "./logic/functions";
+import { isExercise } from "./logic/utils/functions";
 
 chrome.runtime.onMessage.addListener(onMessageReceived);
 
