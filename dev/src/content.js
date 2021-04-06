@@ -1,3 +1,4 @@
+import { parseExercise } from "./logic/exerciseParser";
 import { ERROR_MESSAGES, RUNTIME_MESSAGE_TYPES } from "./logic/utils/constants";
 import { isExercise } from "./logic/utils/functions";
 
@@ -13,9 +14,8 @@ function onMessageReceived(message) {
 
 function onButtonClicked() {
   const url = document.URL;
-
   try {
-    if (isExercise(url));
+    if (isExercise(url)) parseExercise();
     else throw new Error(ERROR_MESSAGES.NOT_SUPPORTED_WEBSITE);
   } catch (error) {
     console.log(error.message);
