@@ -1,0 +1,44 @@
+{
+  "name": "@nepsacademy/companion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build:dist:bg": "parcel build --no-source-maps dev/src/background.js -d dist/src",
+    "build:dist:content": "parcel build --no-source-maps dev/src/content.js -d dist/src",
+    "build:dist": "npm run build:dist:bg && npm run build:dist:content",
+    "build:dev:bg": "parcel build --no-minify dev/src/background.js -d dist/src",
+    "build:dev:content": "parcel build --no-minify dev/src/content.js -d dist/src",
+    "build:dev": "npm run build:dev:bg && npm run build:dev:content",
+    "clean": "rimraf dist",
+    "copy:base": "copyfiles -u 2 ./dev/base/* ./dev/base/icons/128/* ./dev/base/icons/128/**/* dist",
+    "dist": "npm run clean && npm run build:dist && npm run copy:base",
+    "dev": "npm run clean && npm run build:dev && npm run copy:base"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allangarcia2004/NepsAcademyCompanion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/allangarcia2004/NepsAcademyCompanion/issues"
+  },
+  "homepage": "https://github.com/allangarcia2004/NepsAcademyCompanion#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.9.6",
+    "browserslist": "^4.16.3",
+    "copyfiles": "^2.4.1",
+    "eslint": "^7.23.0",
+    "parcel-bundler": "^1.12.5",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2"
+  },
+  "browserslist": [
+    "chrome > 55",
+    "firefox > 52",
+    "opera > 42"
+  ]
+}
