@@ -6,6 +6,10 @@ export function getBatchId() {
   });
 }
 
+export function getNewBatch() {
+  return { id: getBatchId(), size: 1 };
+}
+
 export function getNormalizedName(name) {
   return name
     .normalize("NFD")

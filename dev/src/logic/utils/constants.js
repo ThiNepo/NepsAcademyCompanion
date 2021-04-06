@@ -4,7 +4,7 @@ export const RUNTIME_MESSAGE_TYPES = {
 };
 
 export const ERROR_MESSAGES = {
-  NOT_SUPPORTED_WEBSITE: "Website not suported!",
+  WEBSITE_NOT_SUPPORTED: "Website not suported!",
 };
 
 export const DEFAULT_PROBLEM_DATA = {
