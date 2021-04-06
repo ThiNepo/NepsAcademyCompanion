@@ -1,5 +1,5 @@
 import { sendProblemData } from "./logic/dataSender";
-import { RUNTIME_MESSAGE_TYPES } from "./logic/utils";
+import { RUNTIME_MESSAGE_TYPES } from "./logic/utils/constants";
 
 chrome.browserAction.onClicked.addListener(onButtonClicked);
 chrome.runtime.onMessage.addListener(onMessageReceived);
