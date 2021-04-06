@@ -10,8 +10,8 @@
     "build:dev:bg": "parcel build --no-minify dev/src/background.js -d dist/src",
     "build:dev:content": "parcel build --no-minify dev/src/content.js -d dist/src",
     "build:dev": "npm run build:dev:bg && npm run build:dev:content",
+    "copy:base": "copyfiles -u 2 dev/base/* dev/base/**/* dist",
     "clean": "rimraf dist",
-    "copy:base": "copyfiles -u 2 ./dev/base/* ./dev/base/icons/128/* ./dev/base/icons/128/**/* dist",
     "dist": "npm run clean && npm run build:dist && npm run copy:base",
     "dev": "npm run clean && npm run build:dev && npm run copy:base"
   },
