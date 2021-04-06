@@ -14,9 +14,17 @@
     "scripts": ["src/background.js"]
   },
   "browser_action": {
-    "default-icon": "icons/128-defaultIcon.png"
+    "default-icon": {
+      "16": "icons/16-defaultIcon.png",
+      "32": "icons/32-defaultIcon.png",
+      "64": "icons/64-defaultIcon.png",
+      "128": "icons/128-defaultIcon.png"
+    }
   },
   "icons": {
+    "16": "icons/16-defaultIcon.png",
+    "32": "icons/32-defaultIcon.png",
+    "64": "icons/64-defaultIcon.png",
     "128": "icons/128-defaultIcon.png"
   }
 }
