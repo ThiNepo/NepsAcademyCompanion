@@ -4,15 +4,11 @@ Uma extensão que permite o envio automático de competições e exercícios do 
 
 Funciona de forma similar ao [Competitive Companion](https://github.com/jmerle/competitive-companion#competitive-companion), que realiza essa mesma tarefa para diversos outros juízes onlines.
 
-## Como instalar no Chrome ou no Edge
+## Como instalar
 
-1.  [Baixe a pasta _src_](https://downgit.github.io/#/home?url=https://github.com/allangarcia2004/NepsCompanion/tree/main/src) deste repositório.
-2.  Na pasta de download, clique com o botão direito no arquivo baixado e aperte em _Extrair aqui_.
-3.  Vá para a aba de extensões do seu navegador e, no canto superior direito, habilite o _Modo do desenvolvedor_.
-4.  Clique em _Carregar sem compactação_ e selecione a pasta _src_ que acabou de extrair.
-5.  No canto superior direito da tela, clique no ícone do quebra-cabeça e aperte no alfinete ao lado da _Neps Academy Companion_.
-6.  [Instale o _cph_](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper) no seu Visual Studio Code.
-7.  Se você quiser utilizar a _Neps Academy Companion_ em competições, abra as preferências do Visual Studio Code e, na opção `Cph › General: Default Language`, configure uma linguagem a ser utilizada como padrão.
+A _Neps Academy Companion_ pode ser obtida na loja padrão de extensões do seu navegador:
+- [Para Google Chrome e outros compatíveis](https://chrome.google.com/webstore/);
+- [Para Mozilla Firefox](https://addons.mozilla.org/pt-BR/firefox/extensions/).
 
 ## Como usar
 
