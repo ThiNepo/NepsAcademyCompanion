@@ -12,9 +12,10 @@ A _Neps Academy Companion_ pode ser obtida na loja padrão de extensões do seu 
 
 ## Como usar
 
-1. No Visual Studio Code, abra a pasta onde deseja que sejam criados os arquivos dos problemas.
-2. No navegador, quando estiver na página de um exercício ou de uma competição, clique no ícone da _Neps_ no canto superior direito.
-3. O arquivo abrirá no Visual Studio Code com os casos de teste já configurados. Aperte em _Run Testcases_ (ou `Ctrl+Alt+B`) para executar todos os casos de teste de uma vez.
+1.  [Instale o _cph_](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper) no seu Visual Studio Code.
+2. Abra a pasta onde deseja que sejam criados os arquivos dos problemas.
+3. No navegador, quando estiver na página de um exercício, clique no ícone da _Neps Academy_ no canto superior direito da tela.
+4. O novo arquivo abrirá no Visual Studio Code com os casos de teste já configurados. Aperte em _Run Testcases_ (ou `Ctrl+Alt+B`) para executar todos os casos de teste de uma vez.
 
 ## Notas e dicas
 
