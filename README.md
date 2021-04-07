@@ -19,15 +19,14 @@ A _Neps Academy Companion_ pode ser obtida na loja padrão de extensões do seu 
 
 ## Notas e dicas
 
-- No caso de competições, será criado um arquivo para cada um dos problemas.
-- Você pode configurar um arquito _template_ para a sua linguagem padrão. Vá em `Cph › General: Default Language Template File Location` e colocoque o caminho absoluto desse arquivo.
+- Você pode configurar uma linguagem padrão e ainda um arquivo _template_ para ela. Faça isso nas opções  `Cph › General: Default Language`  e `Cph › General: Default Language Template File Location` das preferências do Visual Studio Code.
 - Para melhor entedimento do uso do _cph_, leia a [página do projeto](https://github.com/agrawal-d/cph#competitive-programming-helper-cph) ou o [guia de uso detalhado](https://github.com/agrawal-d/cph/blob/main/docs/user-guide.md#cph-user-guide).
 
 ## Possíveis problemas e soluções
 
-- Se você estiver na página de um exercício, especialmente se ela foi aberta antes de instalar a extensão, e não funcionar o envio para o Visual Studio Code, experimente recarregar a página (`f5`).
-- Se você estiver utilizando _workspaces_ no Visual Studio Code e o envio da extensão apresentar falhas, experimente apertar `Ctrl+R` e selecionar a pasta na qual você deseja guardar os problemas.
+- Os exercícios que já haviam sido abertos antes da instalação da _Neps Academy Companion_ provavelmente apresentarão falhas no envio para o Visual Studio Code. Experimente recarregá-los com o `f5` .
+- O _cph_ apresenta dificuldade em lidar com as _workspaces_ do Visual Studio Code e provavelmente não receberá corretamente os problemas se essa funcionalidade estiver habilitada. Experimente reabrir o editor com somente uma pasta aberta.
 
 ## License
 
-This software is licensed under [MIT License](LICENSE).
+Este software é licenciado sob a [MIT License](LICENSE).
