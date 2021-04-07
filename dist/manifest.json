@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Neps Academy Companion",
+  "version": "1.0",
+  "description": "This extension allow send test cases from Neps Academy to the VSCode extension CPH.",
+  "permissions": ["http://localhost/"],
+  "content_scripts": [
+    {
+      "matches": ["*://neps.academy/*"],
+      "js": ["src/content.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["src/background.js"]
+  },
+  "browser_action": {
+    "default-icon": {
+      "16": "icons/16-defaultIcon.png",
+      "32": "icons/32-defaultIcon.png",
+      "64": "icons/64-defaultIcon.png",
+      "128": "icons/128-defaultIcon.png"
+    }
+  },
+  "icons": {
+    "16": "icons/16-defaultIcon.png",
+    "32": "icons/32-defaultIcon.png",
+    "64": "icons/64-defaultIcon.png",
+    "128": "icons/128-defaultIcon.png"
+  }
+}
