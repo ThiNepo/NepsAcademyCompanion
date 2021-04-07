@@ -1,7 +1,7 @@
 {
   "name": "@nepsacademy/companion",
   "version": "1.0.0",
-  "description": "",
+  "description": "This extension allow send test cases from Neps Academy to the VSCode extension CPH.",
   "main": "",
   "scripts": {
     "build:dist:bg": "parcel build --no-source-maps dev/src/background.js -d dist/src",
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/allangarcia2004/NepsAcademyCompanion.git"
+    "url": "git+https://github.com/ThiNepo/NepsAcademyCompanion.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/allangarcia2004/NepsAcademyCompanion/issues"
+    "url": "https://github.com/ThiNepo/NepsAcademyCompanion/issues"
   },
-  "homepage": "https://github.com/allangarcia2004/NepsAcademyCompanion#readme",
+  "homepage": "https://github.com/ThiNepo/NepsAcademyCompanion#readme",
   "devDependencies": {
     "@babel/core": "^7.13.14",
     "@babel/preset-env": "^7.9.6",
