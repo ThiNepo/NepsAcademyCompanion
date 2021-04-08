@@ -7,8 +7,8 @@ Funciona de forma similar ao [Competitive Companion](https://github.com/jmerle/c
 ## Como instalar
 
 A _Neps Academy Companion_ pode ser obtida na loja padrão de extensões do seu navegador:
-- [Para Google Chrome e outros compatíveis](https://chrome.google.com/webstore/);
-- [Para Mozilla Firefox](https://addons.mozilla.org/pt-BR/firefox/extensions/).
+- [Para Google Chrome e outros compatíveis](https://chrome.google.com/webstore/detail/neps-academy-companion/melmbgodgcahddlphjgjhefmnpcmfage?hl=pt-BR);
+- [Para Mozilla Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/neps-academy-companion/).
 
 ## Como usar
 
