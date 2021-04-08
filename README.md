@@ -26,6 +26,7 @@ A _Neps Academy Companion_ pode ser obtida na loja padrão de extensões do seu 
 
 - Os exercícios que já haviam sido abertos antes da instalação da _Neps Academy Companion_ provavelmente apresentarão falhas no envio para o Visual Studio Code. Experimente recarregá-los com o `f5` .
 - O _cph_ apresenta dificuldade em lidar com as _workspaces_ do Visual Studio Code e provavelmente não receberá corretamente os problemas se essa funcionalidade estiver habilitada. Experimente reabrir o editor com somente uma pasta aberta.
+- Não se esqueça de verificar se você não está com mais de uma janela do Visual Studio Code aberta. Pode ocorrer de a extensão enviar o problema para alguma das janelas minimizadas do editor.
 
 ## License
 
