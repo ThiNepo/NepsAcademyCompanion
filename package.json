@@ -1,7 +1,7 @@
 {
   "name": "@nepsacademy/companion",
   "version": "1.0.0",
-  "description": "This extension allow send test cases from Neps Academy to the VSCode extension CPH.",
+  "description": "This extension allows sending test cases from Neps Academy to the VSCode extension CPH.",
   "main": "",
   "scripts": {
     "build:dist:bg": "parcel build --no-source-maps dev/src/background.js -d dist/src",
