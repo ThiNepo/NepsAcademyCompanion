@@ -25,6 +25,7 @@ export function isExercise(url) {
   const exerciseRegExes = [
     /.*\/\/neps\.academy.*\/exercise\/\d+\/?/i,
     /.*\/\/neps\.academy.*\/course\/\d+\/lesson\/\d+\/?/i,
+    /.*\/\/neps\.academy.*\/course\/[\w-]+\/lesson\/[\w-]+/i
   ];
   return exerciseRegExes.some((regEx) => regEx.test(url));
 }
