@@ -13,9 +13,8 @@ function onMessageReceived(message) {
 }
 
 function onButtonClicked() {
-  const url = document.URL;
   try {
-    if (isExercise(url)) parseExercise();
+    if (isExercise()) parseExercise();
     else throw new Error(ERROR_MESSAGES.NOT_SUPPORTED_WEBSITE);
   } catch (error) {
     console.log(error.message);

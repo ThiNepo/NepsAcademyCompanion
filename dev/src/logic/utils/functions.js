@@ -21,11 +21,18 @@ export function getNormalizedName(name) {
     .replace(/_+$/g, "");
 }
 
-export function isExercise(url) {
-  const exerciseRegExes = [
-    /.*\/\/neps\.academy.*\/exercise\/\d+\/?/i,
-    /.*\/\/neps\.academy.*\/course\/\d+\/lesson\/\d+\/?/i,
-    /.*\/\/neps\.academy.*\/course\/[\w-]+\/lesson\/[\w-]+/i
+export function isExercise() {
+  const caseSampleOuterHtmls = [
+    "<th>Input Samples</th>",
+    "<th>Output Samples</th>",
+    "<th>Exemplos de Entrada</th>",
+    "<th>Exemplos de Saída</th>",
   ];
-  return exerciseRegExes.some((regEx) => regEx.test(url));
+
+  const tableHeaderElements = Array.from(document.getElementsByTagName("th"));
+  const caseSampleHeaders = tableHeaderElements.filter((element) => {
+    return caseSampleOuterHtmls.includes(element.outerHTML);
+  });
+
+  return caseSampleHeaders.length == 2;
 }
