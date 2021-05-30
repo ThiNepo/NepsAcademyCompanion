@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Neps Academy Companion",
-  "version": "1.0",
+  "version": "1.1",
   "description": "This extension allows sending test cases from Neps Academy to the VSCode extension CPH.",
   "permissions": ["http://localhost/"],
   "content_scripts": [
